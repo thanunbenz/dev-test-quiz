@@ -1,11 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
-import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[url('./assets/bg.jpg')] bg-cover bg-center">
-      <Navbar />
       <div className="container mx-auto h-96 flex flex-col items-center justify-center text-center p-4">
         <h1 className="text-6xl font-bold mb-4">HOME</h1>
         <div className="space-x-4">
@@ -30,6 +27,5 @@ export default function Home() {
           </Link>
         </div>
       </div>
-    </div>
   );
 }
